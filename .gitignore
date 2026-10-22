@@ -1,0 +1,26 @@
+# --- Local / personal ---
+.claude/settings.local.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- LaTeX build artifacts ---
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# --- Third-party PUBLISHED source papers (copyright: not redistributable) ---
+# These remain on local disk and are referenced by the repro READMEs, but are
+# not committed to this public repository.
+/1990ispsd.pdf
+/nakagawa1990---*.pdf
+/Field Enhancement for Dielectric Layer of  HVIC  for SOI.pdf
+/Realization of High Breakdown Voltage 700 V in Thin SOI Devices.pdf
+
+# --- Rendered pages/figure crops of the copyrighted papers (comparison refs) ---
+figs_paper/
